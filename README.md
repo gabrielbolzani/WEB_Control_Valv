@@ -11,6 +11,8 @@ Através dela é possivel ler e controlar a vazão na planta de forma manual e t
 A baixo você pode ver mais detalhes do projeto em vídeo.
 
 <https://www.youtube.com/watch?v=8NmJNQZRggQ&ab_channel=GabrielBolzani>
+
+
 <https://www.youtube.com/watch?v=ZWRvUG2vhYU&ab_channel=GabrielBolzani>
 
 
