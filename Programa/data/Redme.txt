@@ -1,0 +1,45 @@
+Redme
+
+Sintaxe:
+
+[Comando]+[Parametro]
+
+
+[H][Posição em porcentagem (opcional)]
+EX.: I; i; i30
+
+[A][Posição absoluta em porcentagem (obrigatória)(0 a 100)]
+EX.: A50; a100; A0; A20.86
+
+[R][Posição relativa em porcentagem (obrigatória)(-100 a 100)]
+EX.: R-50; r60; r15.680; R22.8
+
+
+
+[S][Setpoint em L/H (obrigatória)(0 a 264]
+EX.: S200; s50; S180
+
+
+
+[L][Requisita uma leitura de todos os sensores e retorna pela serial]
+EX.: L; l
+
+
+Parametros do PID
+
+[P][Muda parâmetro KP]
+EX.: P2; p3; P0.85
+[I][Muda parâmetro KI]
+EX.: I2; i3; I0.85
+[D][Muda parâmetro KD]
+EX.: D2; d3; D0.85
+
+
+[W][Muda Tempo de atualização do webserver (ms)]
+EX.: W800; w1500; W1000
+
+[M][Muda Tempo de atualização do webserver (ms)]
+EX.: M800; m1500; M1000
+
+[V][Muda Tempo de delay do motor (ms)]
+EX.: V5; V3; v10

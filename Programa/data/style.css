@@ -1,0 +1,114 @@
+/*  Complete project details: https://randomnerdtutorials.com/esp32-plot-readings-charts-multiple/  */
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-block;
+  text-align: center;
+}
+h1 {
+  font-size: 1.8rem;
+  color: white;
+}
+h2 {
+  font-size: 1.8rem;
+  color: white;
+}
+p {
+  font-size: 1.4rem;
+}
+.topnav {
+	
+  overflow: hidden;
+  background-color: #0A1128;
+}
+.rodape {
+  overflow: hidden;
+  background-color: #0A1128;
+  font-size: 0.5rem;
+  font-weight: bold;
+  color: #8c97a1;
+}
+.division{
+  width:50%;
+  height:100px;
+  display: inline-block;
+}
+body {
+  margin: 0;
+}
+.content {
+  padding: 5%;
+  width:80%;
+}
+.card-grid {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: grid;
+  grid-gap: 2rem;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.card {
+  background-color: white;
+  /* box-shadow: 2px 2px 12px 1px rgba(140,140,140,.5); */
+}
+.card-title {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #034078
+}
+.chart-container {
+  padding-left: 2%;
+}
+
+.linha{
+	display: flex;
+	flex-flow: row wrap;
+}
+.coluna-70 {
+    width: 80%;
+}
+.coluna-30 {
+    width: 18%;
+}
+.container {
+	display: flex;
+}
+.container div {
+	width: 33%;
+	height: 60px;
+}
+	
+button {
+    background-color: #008CBA;
+	font-size: 12px;
+	padding: 5px 15px;
+	border-radius: 12px;
+	transition-duration: 0.4s;
+}
+button:hover {
+  background-color: #4CAF50; /* Green */
+  color: white;
+}
+.input {
+	width:60%;
+}
+.input2 {
+	width:90%;
+}
+.label {
+	width:90%;
+	text-align: left;
+}
+
+.commands {
+  font-size: 0.8em;
+  color: black;
+  font-weight: bold;
+  text-align:left;
+}
+
+.alinhadoEsquerda {text-align:left;}
+
+table{
+	padding: 5%;
+}

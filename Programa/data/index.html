@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+   <meta charset="UTF-8">
+   <head>
+		<title>Controle de vazão</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"> -->
+		<!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script> -->
+		<!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script> -->
+      <!-- <script> -->
+         <!-- function submitMessage() { -->
+		   <!-- //!alert("Valores enviados!"); -->
+           <!-- setTimeout(function(){ document.location.reload(false); }, 500);    -->
+         <!-- } -->
+      <!-- </script> -->
+   </head>
+   <body>
+      <link rel="icon" type="image/png" href="manometer.png">
+      <link rel="stylesheet" type="text/css" href="style.css">
+      <script src="https://code.highcharts.com/highcharts.js"></script>
+      </head>
+      <body>
+         <div class="topnav">
+            <h1>Controle de vazão</h1>
+            <h2>Instrumentação industrial</h2>
+         </div>
+		 
+		<div class="linha">
+			<div class="coluna-70 chart-container">
+				<div class="card-grid">
+					<div class="card">
+					  <p class="card-title">Dados de medição</p>
+					  <div id="chart-temperature" class="chart-container"></div>
+					</div>
+				</div>
+			</div>
+			<div class="coluna-30">
+				<table>
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label id = "SetPoint">SetPoint(L/h): </label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="text" name="inputSP">
+						</td>
+						<td>
+							<button onclick=Send('inputSP')>Enviar</button>
+						</td>
+					</tr>					
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label class="label" id = "AbsPos">Pos Absoluta(%): </label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="number " name="absPos">
+						</td>
+						<td>
+							<button onclick=Send('absPos')>Enviar</button>
+						</td>
+					</tr>					
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label id = "RelativePos">Pos Relativa(%): </label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="number " name="relativePos">
+						</td>
+						<td>
+							<button onclick=Send('relativePos')>Enviar</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label id = "KpValue">KP: </label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="number " name="KpValue">
+						</td>
+						<td>
+							<button onclick=Send('KpValue')>Enviar</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label id = "KiValue">KI: </label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="number " name="KiValue">
+						</td>
+						<td>
+							<button onclick=Send('KiValue')>Enviar</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label id = "KdValue">KD: </label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="number " name="KdValue">
+						</td>
+						<td>
+							<button onclick=Send('KdValue')>Enviar</button>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="3" class="alinhadoEsquerda">
+							<label>Adv Config</label>
+						</td>
+					</tr>
+					<tr>
+						<td colspan="2">
+							<input class="input" type="text" name="AdvConfig">
+						</td>
+						<td>
+							<button onclick=Send('AdvConfig')>Enviar</button>
+						</td>
+					</tr>
+	
+				</table>
+			</div>
+		</div>
+		<div >
+		<br>
+		<br>
+		<label class = "commands" >Advanced commands:	\	'H' => Homming  \  'W' + [value (ms)] - Data interval \ 'M' + [value (ms)] - Dead time \ 'V' + [value (ms)] - Step delay \</label>
+		</div>
+         <script src="script.js"></script>
+   </body>
+   <footer class="rodape">
+		<p>Grupo: Gabriel Forza J Bolzani | Julimar M. Junior | Douglas Rosseto | Gabriel Silva</p>
+        <p>Professor: Vinicius</p>
+   </footer>
+</html>
