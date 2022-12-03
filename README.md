@@ -16,4 +16,8 @@ A baixo você pode ver mais detalhes do projeto em vídeo.
 <https://www.youtube.com/watch?v=ZWRvUG2vhYU&ab_channel=GabrielBolzani>
 
 
+
+![Projeto](Fotos do projeto/1.jpg)
+
+
 Em breve tratrei mais detalhes sobre a parte fisica e Hardware
