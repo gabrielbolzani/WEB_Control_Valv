@@ -16,8 +16,13 @@ A baixo você pode ver mais detalhes do projeto em vídeo.
 <https://www.youtube.com/watch?v=ZWRvUG2vhYU&ab_channel=GabrielBolzani>
 
 
-
-![Projeto](Fotos do projeto/1.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/1.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/2.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/3.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/4.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/5.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/6.jpg)
+![Projeto](https://raw.githubusercontent.com/gabrielbolzani/WEB_Control_Valv/main/Fotos%20do%20projeto/7.jpg)
 
 
 Em breve tratrei mais detalhes sobre a parte fisica e Hardware
